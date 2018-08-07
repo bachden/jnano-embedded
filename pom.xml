@@ -34,4 +34,17 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>releases</name>
+			<url>${env.ARTIFACTORY_CONTEXT_URL}/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>snapshots</name>
+			<url>${env.ARTIFACTORY_CONTEXT_URL}/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
