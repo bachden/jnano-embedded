@@ -3,6 +3,8 @@ jnano
 
 Java binding for the [nanomsg][1] library.
 
+This repo folked from origin at [jnano][4], added EmbeddedLibraryTools utilities to make easy plug n play library
+
 
 What is this?
 -------------
@@ -98,3 +100,4 @@ libnanomsg library.  See COPYING for more details.
 [1]: http://nanomsg.org/                          "nanomsg"
 [2]: http://en.wikipedia.org/wiki/JDK             "Java Development Kit"
 [3]: http://en.wikipedia.org/wiki/Apache_Ant      "Apache Ant"
+[4]: https://github.com/gonzus/jnano					"jnano"
