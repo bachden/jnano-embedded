@@ -28,6 +28,8 @@ You will need the following:
    C code.  I use `v1.0b5`.  You can find a copy in the `lib/ant`
    directory; therefore, you can run ant with `ant -lib
    lib/ant/cpptasks-1.0b5.jar jar` to use the included `cpptasks`.
+   
+   if you use Eclipse, you can add the cpptasks-1.0b05.jar into Preference > Ant > Runtime > Global Entries
 
 5. Look at the `build.<OS>.properties` file for your OS.  Pay
    particular attention to the value of `dir.jni.headers`.
